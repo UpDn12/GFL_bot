@@ -172,7 +172,7 @@ def StarLevel():
     r = None
     while r is None:
         r = pyautogui.locateOnScreen('assets\Mision\campaign\FinishRround.png', confidence = 0.8)
-        # se hubica donde el echelon
+    # se hubica donde el echelon
     despliege = pyautogui.locateOnScreen('assets\Mision\EndRound.png', confidence = 0.8)
     pyautogui.moveTo(despliege)
     pyautogui.move(-640,-330)
