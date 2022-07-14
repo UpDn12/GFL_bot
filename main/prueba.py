@@ -50,7 +50,6 @@ def Select_LostLevel():
     r = None
     while r is None:
         r = pyautogui.locateOnScreen('assets\Mision\CombatLevel.png', confidence = 0.8)
-
     ConfirmStar = pyautogui.locateOnScreen('assets\Mision\CombatLevel.png', confidence = 0.9)
     pyautogui.moveTo(ConfirmStar)
     pyautogui.click(clicks=1)
